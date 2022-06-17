@@ -76,19 +76,19 @@
     "url": "https://apis.clipdrop.co/remove-background/v1/$APIS_HEALTH_METHOD",
     "icon": "https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico",
     "slug": "remove-background-api-v1",
-    "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 239,
-    "timeDay": 239,
-    "timeWeek": 239,
-    "timeMonth": 239,
-    "timeYear": 239,
+    "status": "up",
+    "uptime": "0.09%",
+    "uptimeDay": "0.09%",
+    "uptimeWeek": "0.09%",
+    "uptimeMonth": "0.09%",
+    "uptimeYear": "0.09%",
+    "time": 232,
+    "timeDay": 232,
+    "timeWeek": 232,
+    "timeMonth": 232,
+    "timeYear": 232,
     "dailyMinutesDown": {
-      "2022-06-17": 186
+      "2022-06-17": 195
     }
   },
   {
@@ -96,19 +96,19 @@
     "url": "https://apis.clipdrop.co/cleanup/v1/$APIS_HEALTH_METHOD",
     "icon": "https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico",
     "slug": "cleanup-api-v1",
-    "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 140,
-    "timeDay": 140,
-    "timeWeek": 140,
-    "timeMonth": 140,
-    "timeYear": 140,
+    "status": "up",
+    "uptime": "0.08%",
+    "uptimeDay": "0.08%",
+    "uptimeWeek": "0.08%",
+    "uptimeMonth": "0.08%",
+    "uptimeYear": "0.08%",
+    "time": 150,
+    "timeDay": 150,
+    "timeWeek": 150,
+    "timeMonth": 150,
+    "timeYear": 150,
     "dailyMinutesDown": {
-      "2022-06-17": 186
+      "2022-06-17": 195
     }
   },
   {
@@ -116,19 +116,19 @@
     "url": "https://apis.clipdrop.co/super-resolution/v1/$APIS_HEALTH_METHOD",
     "icon": "https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico",
     "slug": "super-resolution-api-v1",
-    "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 142,
-    "timeDay": 142,
-    "timeWeek": 142,
-    "timeMonth": 142,
-    "timeYear": 142,
+    "status": "up",
+    "uptime": "0.06%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "0.06%",
+    "uptimeMonth": "0.06%",
+    "uptimeYear": "0.06%",
+    "time": 150,
+    "timeDay": 150,
+    "timeWeek": 150,
+    "timeMonth": 150,
+    "timeYear": 150,
     "dailyMinutesDown": {
-      "2022-06-17": 186
+      "2022-06-17": 195
     }
   }
 ]
