@@ -1,31 +1,75 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Hugggsy
+repo: clipdrop-upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # Clipdrop web
+  - name: Clipdrop web home page
+    url: https://clipdrop.co
+    maxResponseTime: 1000
+    assignees:
+      - ieschalier
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+  - name: Clipdrop web remove background tool
+    url: https://clipdrop.co/remove-background
+    maxResponseTime: 1000
+    assignees:
+      - ieschalier
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+  - name: Clipdrop web image upscaler tool
+    url: https://clipdrop.co/image-upscaler
+    maxResponseTime: 1000
+    assignees:
+      - ieschalier
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+  - name: Clipdrop web cleanup
+    url: https://cleanup.pictures
+    maxResponseTime: 1000
+    assignees:
+      - ieschalier
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+
+  # API endpoints
+  - name: Remove background API v1
+    url: https://apis.clipdrop.co/remove-background/v1/$APIS_HEALTH_METHOD
+    maxResponseTime: 1000
+    assignees:
+      - Hugggsy
+      - jblanche
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+  - name: Cleanup API v1
+    url: https://apis.clipdrop.co/cleanup/v1/$APIS_HEALTH_METHOD
+    maxResponseTime: 1000
+    assignees:
+      - Hugggsy
+      - jblanche
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+  - name: Super resolution API v1
+    url: https://apis.clipdrop.co/super-resolution/v1/$APIS_HEALTH_METHOD
+    maxResponseTime: 1000
+    assignees:
+      - Hugggsy
+      - jblanche
+    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+
+workflowSchedule:
+  graphs: "0 * * * *"
+  responseTime: "0 * * * *"
+  staticSite: "0 * * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/10 * * * *"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.clipdrop.co
+  name: Clipdrop services status
+  introTitle: "Clipdrop services status"
+  theme: night
+  logoUrl: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-icon.svg
   navbar:
-    - title: Status
+    - title: Services status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Clipdrop web
+      href: https://clipdrop.co
+    - title: Clipdrop APIs
+      href: https://clipdrop.co/apis
