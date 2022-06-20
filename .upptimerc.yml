@@ -1,4 +1,4 @@
-owner: Hugggsy
+owner: Clipdrop
 repo: clipdrop-upptime
 
 sites:
@@ -8,48 +8,48 @@ sites:
     maxResponseTime: 1000
     assignees:
       - ieschalier
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
   - name: Clipdrop web remove background tool
     url: https://clipdrop.co/remove-background
     maxResponseTime: 1000
     assignees:
       - ieschalier
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
   - name: Clipdrop web image upscaler tool
     url: https://clipdrop.co/image-upscaler
     maxResponseTime: 1000
     assignees:
       - ieschalier
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
   - name: Clipdrop web cleanup
     url: https://cleanup.pictures
     maxResponseTime: 1000
     assignees:
       - ieschalier
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
 
   # API endpoints
   - name: Remove background API v1
     url: https://apis.clipdrop.co/remove-background/v1/$APIS_HEALTH_METHOD
     maxResponseTime: 1000
     assignees:
-      - Hugggsy
+      - initml
       - jblanche
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
   - name: Cleanup API v1
     url: https://apis.clipdrop.co/cleanup/v1/$APIS_HEALTH_METHOD
     maxResponseTime: 1000
     assignees:
-      - Hugggsy
+      - initml
       - jblanche
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
   - name: Super resolution API v1
     url: https://apis.clipdrop.co/super-resolution/v1/$APIS_HEALTH_METHOD
     maxResponseTime: 1000
     assignees:
-      - Hugggsy
+      - initml
       - jblanche
-    icon: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-favicon.ico
+    icon: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-favicon.ico
 
 workflowSchedule:
   graphs: "0 * * * *"
@@ -65,7 +65,7 @@ status-website:
   name: Clipdrop services status
   introTitle: "Clipdrop services status"
   theme: night
-  logoUrl: https://raw.githubusercontent.com/hugggsy/clipdrop-upptime/master/assets/clipdrop-icon.svg
+  logoUrl: https://raw.githubusercontent.com/initml/clipdrop-upptime/master/assets/clipdrop-icon.svg
   navbar:
     - title: Services status
       href: /
