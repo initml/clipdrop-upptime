@@ -61,7 +61,7 @@ workflowSchedule:
   uptime: "*/10 * * * *"
 
 status-website:
-  baseUrl: /clipdrop-upptime
+  cname: status.clipdrop.co
   name: Clipdrop services status
   introTitle: "Clipdrop services status"
   theme: night
